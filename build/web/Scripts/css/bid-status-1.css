@@ -1,0 +1,395 @@
+.container.profile {
+    margin-top: 7rem !important;
+  }
+  
+  .user-picture {
+    position: relative;
+  }
+  
+  .verified-logo {
+    position: absolute;
+    color: #0086b9;
+    top: 65%;
+    left: 90px;
+  }
+  
+  .verified-logo.material-icons {
+    font-size: 30px;
+  }
+  
+  .pix-wrapper {
+    width: 110px;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .user-profile-card {
+    height: 380px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 34px -15px rgb(125, 156, 167);
+    padding: 1rem;
+  }
+  
+  .chat-panel {
+    min-width: 290px;
+    height: 235px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 0px 34px -15px rgb(125, 156, 167);
+    padding: 1rem;
+    min-height: 15vh;
+    position: fixed;
+  }
+  
+  .chatbox {
+    position: absolute;
+    bottom: 1.5rem;
+  }
+  
+  .user-profile-card.view-errand {
+    height: 300px;
+  }
+  
+  .user-profile-card.bid-request {
+    height: 300px;
+  }
+  
+  .modal-dialog.bid-request {
+    max-width: 400px;
+    margin-top: 3rem;
+  }
+  .modal-footer.bid-request,
+  .modal-header.bid-request {
+    justify-content: center;
+    border-width: 0px;
+  }
+  
+  .material-icons.navigation-button {
+    transform: rotate(45deg);
+  }
+  
+  .user-profile-card.notif {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  
+  .scrollbox.profile-page {
+    height: 270px;
+    padding-left: 1rem;
+  }
+  
+  .user-card.errand-history {
+    max-height: auto !important;
+  }
+  .divide-profile {
+    display: flex;
+    justify-content: space-between;
+    max-width: 738px;
+  }
+  
+  .errand-card {
+    box-shadow: 0px 0px 34px -15px rgb(125, 156, 167);
+    padding: 1rem 1.5rem;
+    background-color: white;
+    min-width: 350px;
+    margin-bottom: 2rem;
+  }
+  
+  .main-body.errand {
+    margin-left: 370px;
+  }
+  .dash-profile {
+    display: block;
+    margin: 0 auto 1rem auto;
+    border-radius: 50%;
+    width: 110px;
+  }
+  
+  .dash-name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+  }
+  
+  .dash-email {
+    text-align: center;
+  }
+  
+  .dash-number {
+    margin-top: -0.8rem;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  
+  .dash-stars.reviews {
+    display: block;
+  }
+  
+  .dash-stars.reviews .material-icons {
+    font-size: 16px;
+  }
+  .dash-stars .material-icons {
+    color: #efce27;
+  }
+  
+  .review-list {
+    list-style-type: none;
+    padding-top: 1rem;
+  }
+  
+  .verify-account,
+  .verify-account .material-icons {
+    color: #0086b9;
+  }
+  
+  .dash-stars {
+    display: flex;
+    justify-content: center;
+    margin-top: -0.8rem;
+  }
+  
+  .task-title {
+    font-weight: bolder;
+    color: #888888;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    margin-top: 1.2rem;
+  }
+  
+  .user-profile-card.ongoing {
+    min-width: 370px;
+    margin-left: -1.2rem;
+  }
+  
+  .user-profile-card.post-history {
+    height: auto;
+  }
+  
+  .review-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .reviewers-pix {
+    border-radius: 50%;
+    width: 60px;
+    margin-right: 1rem;
+    margin-top: 0;
+  }
+
+  .bid-btn {
+      width: 23rem;
+  }
+
+  .bidstatus-titles {
+      font-size: 18px;
+      font-weight: 700;
+  }
+
+  .span-pending {
+      border: 1px solid green;
+      background-color: green;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 400;
+      border-radius: 6px;
+      padding: 1px 6px;
+  }
+
+  .paragraph-bid {
+      margin-top: 13px;
+  }
+
+  .bid-amt {
+      color: rgb(44, 115, 248);
+      font-weight: 700;
+  }
+
+  .bid-accept-nego {
+      margin-top: 07rem;
+  }
+
+  .nego-amt {
+    border: 1px solid #d3d2d2;
+    border-radius: 6px;
+    padding: 1px 6px;
+    width: 5rem;
+    margin-top: 20px;
+    background-color: #d3d2d2;
+  }
+
+  .fix-amt {
+    border: 1px solid #caf3f3;
+    padding: 0px 4px;
+    border-radius: 6px;
+    width: 5rem;
+    background-color: #caf3f3;
+    height: 2rem;
+  }
+
+  .img-nego {
+      display: flex;
+      margin-top: 10px;
+  }
+
+  .accept-bid {
+      border: 1px solid #0086b9;
+      padding: 4px 6px;
+      background-color: #0086b9;
+      color: #ffffff !important;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+  }
+
+  .negotiate-bid {
+      color: #0086b9 !important;
+      font-size: 14px;
+      font-weight: 900;
+      margin-left: 2rem;
+  }
+/* 
+  a.cancel-bid {
+    color: rgba(189, 8, 8, 0.801);
+      font-weight: 900;
+      margin-top: 4rem;
+      text-align: center;
+  } */
+
+  .cancel-bid-block {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  .cancel-bid1 {
+    color: rgba(189, 8, 8, 0.801);
+    font-weight: 900;
+    
+  }
+
+  .bid-main {
+    margin-top: -20px;
+  }
+  
+  .reviewer-name {
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  
+  .review-comment {
+    color: #292929;
+  }
+  
+  .notifications {
+    align-items: center;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .errand-status {
+    color: #292929;
+  }
+  
+  .errand-history .posted {
+    color: #0086b9;
+  }
+  
+  .errand-history .errand-details {
+    font-style: normal;
+  }
+  
+  .full-details {
+    font-weight: bold;
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  .errand-location h6 {
+    font-weight: bold;
+    margin-bottom: -3px;
+  }
+  
+  .summary {
+    padding: 5px 1.2rem;
+    height: 60px;
+  }
+  
+  .summary:not(:last-child) {
+    border-right: 2px solid lightgrey;
+  }
+  
+  .summary .date {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .green-cash,
+  .date {
+    margin-bottom: -3px;
+  }
+  
+  .green-cash {
+    color: #0b8e13;
+    font-weight: bold;
+  }
+  
+  .grey-text {
+    color: #888888;
+  }
+  
+  .bottom-errands {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .nego-modal-text {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .nego-modal-button {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 1026px) {
+    .sidebar {
+      display: none;
+    }
+    .user-profile-card {
+      margin: 2rem auto;
+      max-width: 350px;
+    }
+  
+    .chat-panel {
+      max-width: 350px;
+      margin: 0 auto;
+    }
+    .user-profile-card.two {
+      margin-right: 0;
+    }
+  
+    .main-body.errand {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media (max-width: 726px) {
+    .bottom-errands {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .summary:not(:last-child) {
+      border: none;
+      text-align: left;
+    }
+  }
+  

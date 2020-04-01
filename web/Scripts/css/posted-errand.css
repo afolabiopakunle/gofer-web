@@ -1,0 +1,9 @@
+.errand-card {
+    box-shadow: 0px 0px 34px -15px rgb(125, 156, 167);
+    padding: 1rem 1.5rem;
+    background-color: white;
+    min-width: 350px;
+    max-width: 739px;
+    margin-bottom: 2rem;
+  }
+  
